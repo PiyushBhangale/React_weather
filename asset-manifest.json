@@ -8,10 +8,10 @@
   "runtime~main.js": "/React_weather/static/js/runtime~main.c83004eb.js",
   "runtime~main.js.map": "/React_weather/static/js/runtime~main.c83004eb.js.map",
   "static/media/App.css": "/React_weather/static/media/bg.749f3617.jpg",
-  "static/media/bootstrap.min.css": "/React_weather/static/media/glyphicons-halflings-regular.f4769f9b.eot",
+  "static/media/bootstrap.min.css": "/React_weather/static/media/glyphicons-halflings-regular.fa277232.woff",
   "static/css/main.d6889225.chunk.css.map": "/React_weather/static/css/main.d6889225.chunk.css.map",
   "static/css/1.cd86bb58.chunk.css.map": "/React_weather/static/css/1.cd86bb58.chunk.css.map",
   "index.html": "/React_weather/index.html",
-  "precache-manifest.1df63b3650d23edd8ba0af87c8102566.js": "/React_weather/precache-manifest.1df63b3650d23edd8ba0af87c8102566.js",
+  "precache-manifest.2cb49429ffffa8070e060d10d2fe53c2.js": "/React_weather/precache-manifest.2cb49429ffffa8070e060d10d2fe53c2.js",
   "service-worker.js": "/React_weather/service-worker.js"
 }
