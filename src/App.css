@@ -7,7 +7,8 @@ body {
 }
 
 .wrapper {
-  background: linear-gradient(to right, #3e4350, #f16051);
+  background: #fff;
+  /* background: linear-gradient(to right, #3e4350, #f16051); */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -17,7 +18,7 @@ body {
 .main {
   
   border-radius:90px 30px 90px 30px;
-  height: 90vh;
+  height: 80vh;
   background: #fff;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
   width: 80%;
@@ -27,11 +28,13 @@ margin: 0 auto;
 
 
 .title-container {
+  border: solid 2px #181818;
   border-radius: 90px 0px 0px 30px;
-  height: 90vh;
+  height: 80vh;
   background: url("img/bg.jpg") center center no-repeat;
   background-size: cover;
   display: flex;
+  border-right: groove 5px #e94d3b;
   /* align-items: center;
   justify-content: center; */
   text-align: center;
@@ -58,9 +61,12 @@ margin: 0 auto;
 .form-container {
   /* align-items: center;
   justify-content: center; */
-  background-color: #2f3945;
+  /* background-color: #2f3945; */
+  background-color: #fff;
+  border: solid 2px #181818;
+  border-left-color: transparent;
   border-radius: 0px 30px 90px 0px;
-  height: 90vh;
+  height: 80vh;
   padding-top: 100px !important;
   padding-left: 50px !important;
 }
@@ -71,7 +77,7 @@ input[type="text"] {
   border-bottom: solid 1px #f16051;
   width: 30%;
   padding-bottom: 4px;
-  color: #fff !important;
+  color: rgb(51, 51, 51) !important;
   font-weight: lighter;
   letter-spacing: 2px;
   margin-bottom: 30px;
@@ -97,8 +103,8 @@ button {
   letter-spacing: 1px;
   font-size: 15px;
   cursor: pointer;
-  background-color: #f16051;
-  color: #fff;
+  background-color: #e94d3b;
+  color: #fff !important;
   font-weight: 100;
 }
 
@@ -114,8 +120,8 @@ button:active {
 }
 
 .weather__key {
-  color: #f16051;
-  border-bottom: solid 2px rgba(255,255,255,0.06);
+  color: #e94d3b;
+  border-bottom: solid 1px #e97c70;
   padding: 20px 0 20px 0;
   font-weight: 400;
 }
@@ -125,7 +131,7 @@ button:active {
 }
 
 .weather__value {
-  color: #fff;
+  color: rgb(48, 47, 47);
   font-weight: 200;
 }
 
