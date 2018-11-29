@@ -1,3 +1,14 @@
+# WEATHER FINDER
+
+### Description
+The project Weather Finder helps one to get the detalis regarding the weather in a particular city. It consist of two input fileds City and Country with the help of which the user can get details regarding the temperature,humidity and conditons in the particular city.
+ 
+
+### Demo 
+You can check out the working of this project on  https://piyushbhangale.github.io/React_weather/
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
