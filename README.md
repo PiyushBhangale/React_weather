@@ -7,7 +7,7 @@ Weather Finder helps one to get the detalis regarding the weather in a particula
 
 ### Demo 
 
-You can check out the working of this project on  https://piyushbhangale.github.io/React_weather/
+You can check out the project on  https://piyushbhangale.github.io/React_weather/
 
 --------------------------------------------------------------------------------------------------------------------------
 
