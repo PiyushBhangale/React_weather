@@ -1,4 +1,4 @@
-# WEATHER FINDER
+# Weather Finder
 
 ### Description
 
