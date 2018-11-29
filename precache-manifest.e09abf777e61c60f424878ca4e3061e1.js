@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "448c34a56d699c29117adc64c43affeb",
-    "url": "/React_weather/static/media/glyphicons-halflings-regular.448c34a5.woff2"
+    "revision": "f4769f9bdb7466be65088239c12046d1",
+    "url": "/React_weather/static/media/glyphicons-halflings-regular.f4769f9b.eot"
   },
   {
-    "revision": "9ae7d51944fe796bdd9a",
+    "revision": "71c0fea465c2e01f0f75",
     "url": "/React_weather/static/css/main.d6889225.chunk.css"
   },
   {
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/React_weather/static/media/bg.749f3617.jpg"
   },
   {
-    "revision": "9ae7d51944fe796bdd9a",
-    "url": "/React_weather/static/js/main.9ae7d519.chunk.js"
+    "revision": "71c0fea465c2e01f0f75",
+    "url": "/React_weather/static/js/main.71c0fea4.chunk.js"
+  },
+  {
+    "revision": "448c34a56d699c29117adc64c43affeb",
+    "url": "/React_weather/static/media/glyphicons-halflings-regular.448c34a5.woff2"
   },
   {
     "revision": "fa2772327f55d8198301fdb8bcfc8158",
     "url": "/React_weather/static/media/glyphicons-halflings-regular.fa277232.woff"
-  },
-  {
-    "revision": "f4769f9bdb7466be65088239c12046d1",
-    "url": "/React_weather/static/media/glyphicons-halflings-regular.f4769f9b.eot"
   },
   {
     "revision": "e18bbf611f2a2e43afc071aa2f4e1512",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/React_weather/static/css/1.cd86bb58.chunk.css"
   },
   {
-    "revision": "44f2e4e3612dc65096c348600a094e8d",
+    "revision": "9091827726fa36b2d19381232504fea1",
     "url": "/React_weather/index.html"
   }
 ];
