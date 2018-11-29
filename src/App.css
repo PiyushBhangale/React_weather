@@ -59,6 +59,7 @@ margin: 0 auto;
 }
 
 .form-container {
+  overflow:auto; 
   /* align-items: center;
   justify-content: center; */
   /* background-color: #2f3945; */
