@@ -40,6 +40,19 @@ margin: 0 auto;
   text-align: center;
   color: #000;
 }
+.title-container-mobile {
+  border: solid 2px #181818;
+  border-radius: 90px 79px 0px 1px;
+  height: 80vh;
+  background: url("img/bg.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  /* border-right: groove 5px #e94d3b; */
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+  color: #000;
+}
 
 .title-container__title {
   font-size: 50px;
@@ -71,6 +84,20 @@ margin: 0 auto;
   padding-top: 100px !important;
   padding-left: 50px !important;
 }
+.form-container-mobile {
+  overflow:auto; 
+  /* align-items: center;
+  justify-content: center; */
+  /* background-color: #2f3945; */
+  background-color: #fff;
+  border: solid 2px #181818;
+  /* border-left-color: transparent; */
+  border-radius: 0px 0px 90px 90px;
+  height: 80vh;
+  padding-top: 30px !important;
+  padding-left: 50px !important;
+}
+
 
 input[type="text"] {
   background-color: transparent;

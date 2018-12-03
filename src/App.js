@@ -14,7 +14,10 @@ class App extends Component{
     country:undefined,
     humidity:undefined,
     description:undefined,
-    error:undefined
+    error:undefined,
+    col5:undefined,
+    col6:undefined
+
   }
   getWeather= async(e)=>{
     e.preventDefault()
@@ -46,6 +49,31 @@ class App extends Component{
     }
   } 
 
+  updateDimensions=()=>{
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  
+  if(w<770){
+    console.log("lessss")
+    this.setState({
+      col5:'col-5 title-container-mobile',
+      col6:'col-6 form-container-mobile'
+
+    })
+  }else{
+    console.log("greater")
+    this.setState({
+      col5:'col-xs-5 title-container',
+      col6:'col-xs-6 form-container'
+
+    })
+
+  }}
+
+  componentDidMount(){
+    this.updateDimensions()
+    window.addEventListener("resize", this.updateDimensions);
+      }
   render(){
 
     return(
@@ -54,10 +82,10 @@ class App extends Component{
           <div className="main ">
             <div className="container ">
               <div className="row ">
-                  <div className="col-xs-5 title-container ">
+                  <div className={this.state.col5}>
                       <Titles />
                   </div>
-                  <div className="col-xs-6 form-container">
+                  <div className={this.state.col6}>
                       <Form getWeather={this.getWeather} />
                       <Weather 
                         temperature={this.state.temperature} 
